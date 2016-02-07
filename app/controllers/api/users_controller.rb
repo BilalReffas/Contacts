@@ -12,6 +12,7 @@ class Api::UsersController < ApplicationController
   # GET /users/1
   # GET /users/1.json
   def show
+    render "User []"
     render json: @user
   end
 
